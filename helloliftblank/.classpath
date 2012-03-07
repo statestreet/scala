@@ -1,18 +1,12 @@
-create lift project:
-
-
-mvn archetype:generate -DarchetypeGroupId=net.liftweb -DarchetypeArtifactId=lift-archetype-basic_2.8.1     -DarchetypeVersion=2.2 -DarchetypeRepository=http://scala-tools.org/repo-releases     -DremoteRepositories=http://scala-tools.org/repo-releases -DgroupId=your.group.id -DartifactId=lift_demo -Dversion=1.0
-
-mvn archetype:generate -DarchetypeGroupId=net.liftweb -DarchetypeArtifactId=lift-archetype-blank_2.8.1     -DarchetypeVersion=2.2 -DarchetypeRepository=http://scala-tools.org/repo-releases     -DremoteRepositories=http://scala-tools.org/repo-releases -DgroupId=com.yixiugg.hellolift -DartifactId=helloliftblank -Dversion=1.0
-
-add classpath:
-
-<classpathentry kind="var" path="M2_REPO/javax/activation/activation/1.1/activation-1.1.jar" sourcepath="M2_REPO/javax/activation/activation/1.1/activation-1.1-sources.jar"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java|**/*.scala" kind="src" output="target/test-classes" path="src/test/scala"/>
+	<classpathentry including="**/*.java|**/*.scala" kind="src" path="src/main/scala"/>
+	<classpathentry kind="var" path="M2_REPO/javax/activation/activation/1.1/activation-1.1.jar" sourcepath="M2_REPO/javax/activation/activation/1.1/activation-1.1-sources.jar"/>
 	<classpathentry kind="var" path="M2_REPO/javax/mail/mail/1.4.1/mail-1.4.1.jar" sourcepath="M2_REPO/javax/mail/mail/1.4.1/mail-1.4.1-sources.jar"/>
 	<classpathentry kind="var" path="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar" sourcepath="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar"/>
 	<classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" sourcepath="M2_REPO/commons-codec/commons-codec/1.4/commons-codec-1.4-sources.jar"/>
 	<classpathentry kind="var" path="M2_REPO/commons-fileupload/commons-fileupload/1.2.2/commons-fileupload-1.2.2.jar" sourcepath="M2_REPO/commons-fileupload/commons-fileupload/1.2.2/commons-fileupload-1.2.2-sources.jar"/>
-	<classpathentry kind="var" path="M2_REPO/com/h2database/h2/1.2.138/h2-1.2.138.jar" sourcepath="M2_REPO/com/h2database/h2/1.2.138/h2-1.2.138-sources.jar"/>
 	<classpathentry kind="var" path="M2_REPO/nu/validator/htmlparser/htmlparser/1.2.1/htmlparser-1.2.1.jar" sourcepath="M2_REPO/nu/validator/htmlparser/htmlparser/1.2.1/htmlparser-1.2.1-sources.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/mortbay/jetty/jetty/6.1.25/jetty-6.1.25.jar" sourcepath="M2_REPO/org/mortbay/jetty/jetty/6.1.25/jetty-6.1.25-sources.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/mortbay/jetty/jetty-util/6.1.25/jetty-util-6.1.25.jar" sourcepath="M2_REPO/org/mortbay/jetty/jetty-util/6.1.25/jetty-util-6.1.25-sources.jar"/>
@@ -30,25 +24,7 @@ add classpath:
 	<classpathentry kind="var" path="M2_REPO/com/thoughtworks/paranamer/paranamer/2.0/paranamer-2.0.jar" sourcepath="M2_REPO/com/thoughtworks/paranamer/paranamer/2.0/paranamer-2.0-sources.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar" sourcepath="M2_REPO/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211-sources.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar" sourcepath="M2_REPO/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1-sources.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/scala-tools/testing/specs_2.8.1/1.6.6/specs_2.8.1-1.6.6.jar" sourcepath="M2_REPO/org/scala-tools/testing/specs_2.8.1/1.6.6/specs_2.8.1-1.6.6-sources.jar"/>
-	
-eclipse add variable M2_REPO and using external maven3
-
-
-mvn jetty:run -Djetty.port=9999
-
-
-<plugin>
-                <groupId>org.mortbay.jetty</groupId>
-                <artifactId>maven-jetty-plugin</artifactId>
-                <version>6.1.6</version>
-                <configuration>
-                    <connectors>
-                       <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
-                            <port>9999</port>
-                            <maxIdleTime>60000</maxIdleTime>
-                        </connector>
-                    </connectors>
-                </configuration>
-            </plugin>
-	
+	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
