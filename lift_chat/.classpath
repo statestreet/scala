@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/scala" output="target/classes"/>
+	<classpathentry kind="src" path="src/main/resources" output="target/test-classes"/>
+	<classpathentry kind="src" path="src/test/resources" output="target/test-classes"/>
+	<classpathentry kind="src" path="src/test/scala" output="target/classes"/>
+	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="var" path="M2_REPO/javax/activation/activation/1.1/activation-1.1.jar" sourcepath="M2_REPO/javax/activation/activation/1.1/activation-1.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/javax/mail/mail/1.4.1/mail-1.4.1.jar" sourcepath="M2_REPO/javax/mail/mail/1.4.1/mail-1.4.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar" sourcepath="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" sourcepath="M2_REPO/commons-codec/commons-codec/1.4/commons-codec-1.4-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-fileupload/commons-fileupload/1.2.2/commons-fileupload-1.2.2.jar" sourcepath="M2_REPO/commons-fileupload/commons-fileupload/1.2.2/commons-fileupload-1.2.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/h2database/h2/1.2.138/h2-1.2.138.jar" sourcepath="M2_REPO/com/h2database/h2/1.2.138/h2-1.2.138-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/nu/validator/htmlparser/htmlparser/1.2.1/htmlparser-1.2.1.jar" sourcepath="M2_REPO/nu/validator/htmlparser/htmlparser/1.2.1/htmlparser-1.2.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mortbay/jetty/jetty/6.1.25/jetty-6.1.25.jar" sourcepath="M2_REPO/org/mortbay/jetty/jetty/6.1.25/jetty-6.1.25-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mortbay/jetty/jetty-util/6.1.25/jetty-util-6.1.25.jar" sourcepath="M2_REPO/org/mortbay/jetty/jetty-util/6.1.25/jetty-util-6.1.25-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/joda-time/joda-time/1.6.2/joda-time-1.6.2.jar" sourcepath="M2_REPO/joda-time/joda-time/1.6.2/joda-time-1.6.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/junit/junit/4.7/junit-4.7.jar" sourcepath="M2_REPO/junit/junit/4.7/junit-4.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/liftweb/lift-actor_2.8.1/2.2/lift-actor_2.8.1-2.2.jar" sourcepath="M2_REPO/net/liftweb/lift-actor_2.8.1/2.2/lift-actor_2.8.1-2.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/liftweb/lift-common_2.8.1/2.2/lift-common_2.8.1-2.2.jar" sourcepath="M2_REPO/net/liftweb/lift-common_2.8.1/2.2/lift-common_2.8.1-2.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/liftweb/lift-json_2.8.1/2.2/lift-json_2.8.1-2.2.jar" sourcepath="M2_REPO/net/liftweb/lift-json_2.8.1/2.2/lift-json_2.8.1-2.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/liftweb/lift-mapper_2.8.1/2.2/lift-mapper_2.8.1-2.2.jar" sourcepath="M2_REPO/net/liftweb/lift-mapper_2.8.1/2.2/lift-mapper_2.8.1-2.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/liftweb/lift-proto_2.8.1/2.2/lift-proto_2.8.1-2.2.jar" sourcepath="M2_REPO/net/liftweb/lift-proto_2.8.1/2.2/lift-proto_2.8.1-2.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/liftweb/lift-util_2.8.1/2.2/lift-util_2.8.1-2.2.jar" sourcepath="M2_REPO/net/liftweb/lift-util_2.8.1/2.2/lift-util_2.8.1-2.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/liftweb/lift-webkit_2.8.1/2.2/lift-webkit_2.8.1-2.2.jar" sourcepath="M2_REPO/net/liftweb/lift-webkit_2.8.1/2.2/lift-webkit_2.8.1-2.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/ch/qos/logback/logback-classic/0.9.26/logback-classic-0.9.26.jar" sourcepath="M2_REPO/ch/qos/logback/logback-classic/0.9.26/logback-classic-0.9.26-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/ch/qos/logback/logback-core/0.9.26/logback-core-0.9.26.jar" sourcepath="M2_REPO/ch/qos/logback/logback-core/0.9.26/logback-core-0.9.26-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/thoughtworks/paranamer/paranamer/2.0/paranamer-2.0.jar" sourcepath="M2_REPO/com/thoughtworks/paranamer/paranamer/2.0/paranamer-2.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar" sourcepath="M2_REPO/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar" sourcepath="M2_REPO/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/scala-tools/testing/specs_2.8.1/1.6.6/specs_2.8.1-1.6.6.jar" sourcepath="M2_REPO/org/scala-tools/testing/specs_2.8.1/1.6.6/specs_2.8.1-1.6.6-sources.jar"/>
+</classpath>
