@@ -26,7 +26,11 @@ class Boot {
       // more complex because this menu allows anything in the
       // /static path to be visible
       Menu(Loc("Static", Link(List("static"), true, "/static/index"), 
-	       "Static Content")))
+	       "Static Content")),
+	  Menu(Loc("Help", Link(List("help"), true, "/help/index"), 
+	       "Help"))
+	       
+    )
 
     // set the sitemap.  Note if you don't want access control for
     // each page, just comment this line out.
